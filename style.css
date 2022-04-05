@@ -89,7 +89,7 @@ h6 {
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,500&display=swap');
 
 .all-content-flex {
     font-family: 'Montserrat', sans-serif;
@@ -176,8 +176,8 @@ h6 {
     font-weight: 700;
 }
 
-.awesome__img {
-}
+.awesome__img {}
+
 .awesome__img-item {
     display: flex;
     justify-content: center;
@@ -196,32 +196,34 @@ h6 {
     height: 36px;
     background-color: #3776DD;
 }
-.random-info {
-}
-.container {
-}
+
+
 .random-info-flexbox {
     margin-top: 50px;
 }
+
 .random-info__tittle {
     text-align: center;
-    color:#1F2937;
+    color: #1F2937;
     font-weight: 800;
     font-size: 40px;
 }
+
 .random-info__items-wrapper {
     margin-top: 50px;
     display: flex;
     justify-content: center;
     gap: 50px;
-    
+
 
 }
+
 .random-info__item {
     display: flex;
     flex-direction: column;
     width: 170px;
 }
+
 .random-info__item-img {
     display: flex;
     justify-content: center;
@@ -231,12 +233,95 @@ h6 {
     border: 5px solid #3776DD;
     border-radius: 25px;
 }
+
 .random-info__item-text {
     margin-top: 15px;
     text-align: center;
     opacity: 0.8;
 }
 
-.footer {}
+.quote {
+    background-color: #E5E7EB;
+    margin-top: 115px;
+}
 
-.footer {}
+.quote-content {
+    position: relative;
+    font-size: 27px;
+    padding-top: 130px;
+    width: 791px;
+    margin: 0 auto;
+    padding-bottom: 130px;
+    font-style: italic;
+    line-height: 50px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.quote-content::after {
+    color: rgba(0, 0, 0, 1);
+    content: '-Thor, GOD of THUNDER';
+    position: absolute;
+    right: 0px;
+    bottom: 80px;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.action {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.action-wrapper {
+    background-color: #3B82F6;
+    border-radius: 10px;
+
+
+}
+
+.action-container {
+    padding-top: 53px;
+    padding-bottom: 53px;
+    max-width: 777px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action__text-part {}
+
+.action__text-part-tittle {
+    color: #E5E7EB;
+    font-weight: 700;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.action__text-part-subtittle {
+    color: #e5e7ebd2;
+    line-height: 16px;
+}
+
+.action__button {
+    border: #E5E7EB 3px solid;
+    color: #E5E7EB;
+    background-color: #3B82F6;
+    font-weight: 700;
+}
+.action__button:hover{
+    background-color: #2856a0;
+}
+.footer {
+    background-color: #1F2937;
+}
+
+.footer__tittle {
+    color: #E5E7EB;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
