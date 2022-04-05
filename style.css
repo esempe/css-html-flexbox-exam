@@ -176,6 +176,11 @@ h6 {
     font-weight: 700;
 }
 
+.awesome__text-part-button:hover {
+    background-color: #2856a0;
+
+}
+
 .awesome__img {}
 
 .awesome__img-item {
@@ -310,9 +315,11 @@ h6 {
     background-color: #3B82F6;
     font-weight: 700;
 }
-.action__button:hover{
+
+.action__button:hover {
     background-color: #2856a0;
 }
+
 .footer {
     background-color: #1F2937;
 }
